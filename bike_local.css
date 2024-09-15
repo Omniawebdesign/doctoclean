@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'dm_sans9pt_regular';
-  src: url('dmsans-variablefont_opszwght-webfont.woff2') format('woff2'),
+  src: url('dmsans-variablefont_opszwght-webfont.woff2') format('woff2'),#why-957
        url('dmsans-variablefont_opszwght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -15,7 +15,8 @@
 @media only screen and (min-width: 0rem) {
   #steps {
     padding: var(--sectionPadding);
-    background: #0e0e0e;
+    background-color: #1a1a1a;
+        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
   }
   #steps .cs-container {
     display: flex;
@@ -188,7 +189,9 @@
       font-family: 'Roboto', 'Arial', sans-serif;
       padding: var(--sectionPadding);
       padding-bottom: 0;
-      background-color: #040406;
+      
+      background-color: #1a1a1a;
+        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
       position: relative;
     }
     #why-957 .cs-container {
@@ -610,7 +613,8 @@
     /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
     font-family: "Roboto", "Arial", sans-serif;
     padding: var(--sectionPadding);
-    background-color: #0e0e0e;
+    background-color: #1a1a1a;
+        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
   }
   #services-1176 .cs-container {
     max-width: 34.375rem;
