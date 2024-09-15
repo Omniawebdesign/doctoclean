@@ -833,19 +833,7 @@
     left: 0;
     z-index: -1;
   }
-  #cta-1072 .cs-background:before {
-    /* background color overlay */
-    content: '';
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: #040406;
-    opacity: .8;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
+  
   #cta-1072 .cs-background img {
     position: absolute;
     top: 0;
