@@ -134,11 +134,11 @@
 
 
 #steps p {
-    color: #C6E4FF;
+    color: #00A8E8;
     
 }
 #steps .cs-text{
-  color: #C6E4FF;
+  color: #00A8E8;
     font-weight: bold;
     margin-bottom: 1.5em;
     text-transform: uppercase;
@@ -168,7 +168,7 @@
 @media only screen and (min-width: 0rem) {
     :root {
       /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
-      --primary: #C6E4FF;
+      --primary: #00A8E8;
       --primaryLight: #d8673d;
       --secondary: #FFBA43;
       --secondaryLight: #FFBA43;
@@ -247,7 +247,7 @@
       color: #000;
       min-width: 9.375rem;
       padding: 0 2rem;
-      background-color: #c6e4ff;
+      background-color: #00A8E8;
       display: inline-block;
       position: relative;
       z-index: 1;
@@ -586,7 +586,7 @@
   font-weight: 700;
   text-align: center;
   margin: 0;
-  color: #C6E4FF;
+  color: #00A8E8;
   min-width: 9.375rem;
   padding: 0 1.5rem;
   background-color: transparent;
@@ -594,7 +594,7 @@
   position: relative;
   z-index: 1;
   box-sizing: border-box;
-  border: 2px solid #C6E4FF;
+  border: 2px solid #00A8E8;
 
 }
 
@@ -768,7 +768,7 @@
                                 
                                 
 #services-1176 span{
-  color: #C6E4FF;
+  color: #00A8E8;
 }
 
 
