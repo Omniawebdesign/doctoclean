@@ -1156,6 +1156,9 @@ body {
         width: 100%;
         /* clips the image from overflowing parent on hover */
         overflow: hidden;
+              border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+
     }
     #services-1167 .cs-picture img {
         z-index: -1;
