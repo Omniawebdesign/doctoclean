@@ -920,7 +920,7 @@
         width: 10rem;
         /* 202px - 248px */
         height: clamp(12.625rem, 25vw, 15.5rem);
-        background: #1a1a1a;
+        background: #00B2FF;
         opacity: 1;
         border-radius: 1rem;
         position: absolute;
@@ -936,7 +936,7 @@
         width: 10rem;
         /* 202px - 248px */
         height: clamp(12.625rem, 25vw, 15.5rem);
-        background: #1a1a1a;
+        background: #00B2FF;
         opacity: 1;
         border-radius: 1rem;
         position: absolute;
