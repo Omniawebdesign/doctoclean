@@ -13,7 +13,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #00A8E8;
+    --primary: #00B2FF;
     --primaryShade: #ffd675;
     --primaryDark: #805d0d;
     --bodyText: #fff;
@@ -975,7 +975,7 @@
     display: block;
     height: 0.11111111em;
     width: 5.38888889em;
-    background: #00A8E8;
+    background: #00B2FF;
     opacity: 1;
     bottom: -0.88888889em;
     left: 0;
