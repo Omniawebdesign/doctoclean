@@ -1378,4 +1378,6 @@ body {
   }
 }
 
-                                
+          #cs-container-unique{
+            flex-direction: row-reverse !important;
+          }                      
