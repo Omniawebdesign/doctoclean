@@ -1378,10 +1378,14 @@ body {
   }
 }
 
-          #cs-container-unique{
-            flex-direction: row-reverse !important;
-          }                      
 
+
+
+@media only screen and (min-width: 48rem) {
+  #cs-container-unique {
+    flex-direction: row-reverse !important;
+  }
+          
 
 
 
