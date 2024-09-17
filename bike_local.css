@@ -15,8 +15,7 @@
 @media only screen and (min-width: 0rem) {
   #steps {
     padding: var(--sectionPadding);
-    background-color: #1a1a1a;
-        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
+    background-color: #010314;
   }
   #steps .cs-container {
     display: flex;
@@ -190,8 +189,7 @@
       padding: var(--sectionPadding);
       padding-bottom: 0;
       
-      background-color: #1a1a1a;
-        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
+      background-color: #010314;
       position: relative;
     }
     #why-957 .cs-container {
@@ -601,8 +599,7 @@
     /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
     font-family: "Roboto", "Arial", sans-serif;
     padding: var(--sectionPadding);
-    background-color: #1a1a1a;
-        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
+    background-color: #010314;
   }
   #services-1176 .cs-container {
     max-width: 34.375rem;
@@ -840,8 +837,7 @@
 @media only screen and (min-width: 0rem) {
     #sbsr-69 {
         padding: var(--sectionPadding);
-       background-color: #1a1a1a;
-        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
+       background-color: #010314;
     }
     #sbsr-69 .cs-container {
         width: 100%;
@@ -1071,8 +1067,7 @@ body {
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #services-1167 {
-        background-color: #1a1a1a;
-        background-image: linear-gradient(90deg, black, #1f1f1f 52%, #0c0500);
+        background-color: #010314;
         padding: var(--sectionPadding);
     }
     #services-1167 .cs-container {
