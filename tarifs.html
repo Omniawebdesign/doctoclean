@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-58CFBZWR');</script>
+<!-- End Google Tag Manager -->
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.company.com/projects">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content="/images/social.jpg"/>
+    <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Preload -->
+    <link rel="preload" as="image" href="tire.jpg">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+    <link rel="stylesheet" href="bike_root.css">
+    <link rel="stylesheet" href="bike_tarifs.css">
+    <link rel="stylesheet" href="bike_local.css">
+
+    <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+
+    <title>Company Name | Projects | Town and State</title>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58CFBZWR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <div id="navigation">
+        <div aria-hidden="true" class="background-color-div">
+            <!--This div is used to overcome a z-index issue where the open
+                #navbar-menu is on top of the #navigation. This bar places itself 
+                the #navbar-menu so that menu appears behind the #navigation
+            -->
+        </div>
+        <div class="container">
+            <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
+            <a class="logo" aria-label="click to go to home page" href="/index.html">
+                <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
+                
+
+                <!--Dark Colored Logo-->
+                <img class="dark" aria-hidden="true" src="dclog4.png" decoding="async" loading="lazy" alt="logo" width="221" height="66">
+            </a>
+
+            <!--Main Nav-->
+            <nav id="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="tarifs.html">Tarifs</a></li>
+                    
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+           
+
+            <!--Mobile Nav toggle-->
+            <button class="hamburger-menu">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <main id="main">
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+    
+        <section id="int-hero">
+            <h1 id="home-h">Tarifs</h1>
+            <picture>
+                <source media="(max-width: 600px)" srcset="tire.jpg">
+                <source media="(min-width: 601px)" srcset="tire.jpg">
+                <img aria-hidden="true"  src="tire.jpg" alt="" width="400" height="662">
+            </picture>
+        </section>
+
+
+
+
+<!--
+    
+Menu Rules
+
+
+1) The menu items are broken up in to rows (cs-menu-row) so we can have an easier time arranging the menu items for more flexibility.
+
+2) There are 2 menu items by default in the cs-menu-row, if you need a third menu item, add a class .cs-3 to the .cs-menu-row. This will change the styles to account for a third option and look much better.
+
+4) For easier code management, collapse all "#cs-menu .cs-menu" section tags.  So #cs-menu1, #cs-menu2, #cs-menu3, etc will have their .cs-menu section tags collapsed. Makes it easier to go up and down the document.  You can also add your own menu styles or edit the ones we have for you to be more suited for your design.
+
+5) ADD NEW MENUS - When you need to add more menus, copy and paste the .cs-button in .cs-button-group and change the data-filter to the next number ("six" if you still have the default 5 items). Then make sure you change its ID to the next menu number (#cs-menu6 if you added a 6th one, #cs-menu 7 and so on) and change the onclick location to the same ID number.
+
+For quick reference:
+
+.cs-3 = when placed on .cs-menu-row it turns the row into a 3 item flexbox, dont forget to add the 3rd item
+
+-->
+
+<!-- ============================================ -->
+<!--                  Menu Group                  -->
+<!-- ============================================ -->
+
+<div id="cs-menu-group-1039">
+    <div class="cs-container">
+        <div class="cs-content">
+
+
+
+
+            <h2 class="cs-title">Nos Prestations</h2>
+
+
+            
+            <div class="cs-button-group">
+                <button class="cs-button cs-active" data-filter="one" onclick="window.location.href='#cs-menu-group';">
+                    Roues / Pneus
+                </button>
+                <button class="cs-button" data-filter="two" onclick="window.location.href='#cs-menu-group';">
+                    Freinage
+                </button>
+                <button class="cs-button" data-filter="three" onclick="window.location.href='#cs-menu-group';">
+                    Transmission
+                </button>
+                <button class="cs-button" data-filter="four" onclick="window.location.href='#cs-menu-group';">
+                    Accessoires
+                </button>
+                <button class="cs-button" data-filter="five" onclick="window.location.href='#cs-menu-group';">
+                    Direction
+                </button>
+                <button class="cs-button" data-filter="six" onclick="window.location.href='#cs-menu-group';">
+                    Révision
+                </button>
+            </div>
+        </div>
+        <!--Breakfast-->
+        <div id="cs-menu1-1039" class="cs-menu-group" data-category="one">
+            <!--Breakfast Section 1-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <div class="cs-menu-list">
+                        <!--If you want a row of three, add cs-3 class to the row and it will format to the a 3 item menu row-->
+                        
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">changement chambre à air et/ou pneu
+                                    </span>
+                                    <span class="cs-price">11€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le changement de pneu, de chambre à air, ou de valve tubeless vous permettront d'optimiser votre tenue de route.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Dévoilage d'une roue</span>
+                                    <span class="cs-price">15€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Lorsque la roue prend du voile avec les chocs et la pratique,
+                                     les têtes de rayon se desserrent et déséquilibrent la roue. Cela peut donc entraîner la casse des rayons.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Pose d'un rayon et dévoilage</span>
+                                    <span class="cs-price">24€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le changement des rayons de votre vélo permet de réaligner et rééquilibrer votre roue par rapport au moyeu de celle-ci.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Réglage jeu de moyeu</span>
+                                    <span class="cs-price">14€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                   Nous éliminons tout jeu excessif, assurant une transmission de puissance fluide et une expérience de conduite améliorée.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement roue avant</span>
+                                    <span class="cs-price">11€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                     Le changement de roue est nécessaire si le voile de votre roue dépasse les 5 millimètres, si les rayons sont oxydés ou si l'axe de la roue est cassé.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement roue arrière</span>
+                                    <span class="cs-price">15€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le changement de roue est nécessaire si le voile de votre roue dépasse les 5 millimètres, si les rayons sont oxydés ou si l'axe de la roue est cassé.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!--Lunch-->
+        <div id="cs-menu2-1039" class="cs-menu-group" data-category="two">
+            <!--Lunch Section 1-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <div class="cs-menu-list">
+                        <!--If you want a row of three, add cs-3 class to the row and it will format to the a 3 item menu row-->
+                        
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Réglage d'un frein AV ou AR</span>
+                                    <span class="cs-price">11€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le réglage des freins permet d'augmenter l'efficacité de freinage et évite l'usure prématurée des patins/plaquettes et étriers de frein de votre vélo
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Réglage des deux freins</span>
+                                    <span class="cs-price">18€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                   Le réglage des freins permet d'augmenter l'efficacité de freinage et évite l'usure prématurée des patins/plaquettes et étriers de frein de votre vélo
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'une paire de patins ou plaquettes</span>
+                                    <span class="cs-price">12€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Nous vous conseillons cette prestation si vos patins de frein et/ou plaquettes avant ou arrière sont usées ou si vos plaquettes de frein sont contaminées.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'un câble + gaine de frein</span>
+                                    <span class="cs-price">15€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le changement de câble et gaine permet de fluidifier le cheminement du câble dans la gaine afin d'améliorer l'efficacité du freinage et d'éviter la rupture de celui-ci.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'un levier de frein</span>
+                                    <span class="cs-price">22€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Parce qu'il est important d'entretenir régulièrement son matériel, 
+                                    nous vous conseillons le changement de leviers de frein afin de remettre en état le fonctionnement du freinage de votre vélo.
+                                </p>
+                            </div>
+                            
+
+
+ <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'un levier de frein</span>
+                                    <span class="cs-price">22€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Parce qu'il est important d'entretenir régulièrement son matériel, 
+                                    nous vous conseillons le changement de leviers de frein afin de remettre en état le fonctionnement du freinage de votre vélo.
+                                </p>
+                            </div>
+                            
+                       
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!--Dinner-->
+        <div id="cs-menu3-1039" class="cs-menu-group" data-category="three">
+            <!--Dinner Section 1-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <div class="cs-menu-list">
+                        <!--If you want a row of three, add cs-3 class to the row and it will format to the a 3 item menu row-->
+                       
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Réglage dérailleur AR </span>
+                                    <span class="cs-price">12€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le réglage de vitesses permet de réaligner les dérailleurs avant ou arrière 
+                                    afin d'optimiser le passage de vitesses et éviter l'usure de la transmission.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'un dérailleur + Réglage</span>
+                                    <span class="cs-price">20€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Vos dérailleurs ou galets sont usés, tordus ou cassés? 
+                                    Le changement de dérailleur ou des galets permet d'optimiser et de faciliter le passage de vitesses de votre vélo !
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'une manette de dérailleur + Réglage </span>
+                                    <span class="cs-price">24€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    La manette de dérailleur de votre vélo est usée ou cassée? Son changement vous permettra d'optimiser et de faciliter le passage de vitesses.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement d'une chaîne + réglage</span>
+                                    <span class="cs-price">14€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Votre chaîne est usée, vrillée, cassée ? Son changement vous permettra d'optimiser et de faciliter le
+                                    passage de vos vitesses et d'éviter une usure prématurée de vos pignons/
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement cassette / roue libre</span>
+                                    <span class="cs-price">14€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le changement de roue libre ou de la cassette permet d'éviter les sauts de chaîne et d'améliorer le passage des vitesses de votre vélo.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Changement câble + gaine de dérailleur + réglage</span>
+                                    <span class="cs-price">14€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Le changement de câble et gaine permet de fluidifier le cheminement du câble dans la gaine afin d'améliorer le passage des vitesses.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!--Desserts-->
+        <div id="cs-menu4-1039" class="cs-menu-group" data-category="four">
+            <!--Desserts Section 1-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <div class="cs-menu-list">
+                        <!--If you want a row of three, add cs-3 class to the row and it will format to the a 3 item menu row-->
+                       
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Pose selle / tige de selle</span>
+                                    <span class="cs-price">7€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                   Confiez-nous la pose de votre selle ou de votre tige de selle pour une position de conduite optimale. Notre service professionnel garantit un ajustement précis pour votre confort et votre performance sur le vélo.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Pose petit accessoire</span>
+                                    <span class="cs-price">5€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    ( sonnette, porte bidon, support anti-vol, lampe pile,...)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Pose accessoire</span>
+                                    <span class="cs-price">13€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    ( panier, carter de chaîne, antivol mâchoire, béquille, lampe dynamo ...)
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Pose accessoire complexe</span>
+                                    <span class="cs-price">18€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    ( porte-bagages, porte-bébé, ...)
+                                </p>
+                            </div>
+                        </div>
+                        
+                      
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!--Appetizers-->
+        <div id="cs-menu5-1039" class="cs-menu-group" data-category="five">
+            <!--Desserts Section 1-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <div class="cs-menu-list">
+                        <!--If you want a row of three, add cs-3 class to the row and it will format to the a 3 item menu row-->
+                        
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Réglage jeu de direction</span>
+                                    <span class="cs-price">10€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Notre service de réglage du jeu de direction assure une direction fluide et précise pour votre vélo. 
+                                    Nous éliminons tout jeu excessif, garantissant une expérience de conduite plus sûre et plus agréable.
+                                </p>
+                            </div>
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">cassette de jeu de direction</span>
+                                    <span class="cs-price">"30€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Si votre jeu de direction présente des signes d'usure ou de jeu excessif,
+                                    notre service de cassette de jeu de direction est la solution.
+                                </p>
+                            </div>
+                        
+                        
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id="cs-menu3-1039" class="cs-menu-group" data-category="six">
+            <!--Dinner Section 1-->
+            <section class="cs-menu">
+                <div class="cs-container">
+                    <div class="cs-menu-list">
+                        <!--If you want a row of three, add cs-3 class to the row and it will format to the a 3 item menu row-->
+                       
+                        <div class="cs-menu-row">
+                            <div class="cs-menu-item">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Révision </span>
+                                    <span class="cs-price">40€</span>
+                                </h3>
+                                <p class="cs-menu-p">
+                                    Nous vérifions les différents points de contrôle, de serrage et de réglage suivants :
+                                    la position, la direction, les roues, le freinage, et la transmission. (Réglage, graissage, pression des pneumatiques..)
+                                </p>
+                            </div>
+                           
+                      
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+
+        
+    </div>
+</div>
+                                
+
+
+
+
+
+
+
+
+
+
+
+   <!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-1072">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+               
+                <h2 class="cs-title">Besoin d'une révision ?</h2>
+            </div>
+            <div class="cs-button-box">
+                <a href="mailto:docteurcycle@gmail.com" class="cs-button-solid">Email</a>
+                
+                <a href="tel: 07 67 46 32 52" class="cs-button-transparent">Téléphone</a>
+            </div>
+        </div>
+    </div>
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="test.png">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="test.png">
+        <img loading="lazy" decoding="async" src="test.png" alt="mechanic" width="1280" height="568">
+    </picture>
+</section>
+                                
+    
+    
+
+    </main>
+
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="left-section">
+                <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="dclog4.png" alt="logo" width="264" height="78"></a>
+                <p>
+                    Simple, Rapide, Économique
+                </p>
+            </div>
+            <div class="right-section">
+                <div class="lists">
+                    <ul>
+                        <li><h2>Information</h2></li>
+                        <li><a href="/index.html">Accueil</a></li>
+                        <li><a href="/about.html">Tarifs</a></li>
+                        
+                        
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Contact</h2></li>
+                        <li><a href="/contact.html">42 Rue de Soultz<br>67100 Strasbourg</a></li>
+                        <li><a href="tel:07 67 46 32 52">Tel : 07 67 46 32 52</a></li>
+                        <li><a href="mailto:docteurcycle@gmail.com">Envoyer un mail ></a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Horaires 7/7</h2></li>
+                        <li>Lundi : 08h00 à 20h00</li>
+                        <li>Mardi : 08h00 à 20h00</li>
+                        <li>Mercredi : 08h00 à 20h00</li>
+                        <li>Jeudi : 08h00 à 20h00</li>
+                        <li>Vendredi : 08h00 à 20h00</li>
+                        <li>Samedi : 08h00 à 20h00</li>
+                        <li>Dimanche : 10h00 à 20h00</li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="credit">
+            <span>Conception par</span>
+            <a href="" target="_blank" rel="noopener">- Omnia Web Designs -</a>
+            <span class="copyright"> Copyright 2021 - Present</span></div>
+    </footer>
+
+
+    <script defer>
+        
+const navbarMenu = document.querySelector("#navigation #navbar-menu");
+const hamburgerMenu = document.querySelector("#navigation .hamburger-menu");
+
+hamburgerMenu.addEventListener('click', function() {
+    navbarMenu.classList.toggle("open");
+    hamburgerMenu.classList.toggle("clicked");
+});
+    </script>
+    <script defer src="/dark.js"></script>
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer>
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+
+
+<script>
+    class CS_MenuFilter {
+    filtersSelector = '.cs-button'
+    menuSelector = '.cs-menu-group'
+    activeClass = 'cs-active'
+    hiddenClass = 'cs-hidden'
+
+    constructor() {
+        this.$menus = document.querySelectorAll(this.menuSelector)
+        const $filters = document.querySelectorAll(this.filtersSelector)
+
+        this.onClick($filters[0])
+
+        for (const $filter of $filters) {
+            $filter.addEventListener('click', () => this.onClick($filter))
+        }
+    }
+
+    onClick($filter) {
+        this.filter($filter.dataset.filter)
+
+        const { activeClass } = this
+
+        this.$activeFilter?.classList.remove(activeClass)
+        $filter.classList.add(activeClass)
+
+        this.$activeFilter = $filter
+    }
+
+    filter(filter) {
+        const showAll = filter == 'all'
+        const { hiddenClass } = this
+
+        for (const $menu of this.$menus) {
+            const show = showAll || $menu.dataset.category == filter
+            $menu.classList.toggle(hiddenClass, !show)
+        }
+    }
+}
+
+new CS_MenuFilter()
+                                
+</script>
+
+</body>
+</html>
