@@ -134,11 +134,11 @@
 
 
 #steps p {
-    color: #00A8E8;
+    color: #00B2FF;
     
 }
 #steps .cs-text{
-  color: #00A8E8;
+  color: #00B2FF;
     font-weight: bold;
     margin-bottom: 1.5em;
     text-transform: uppercase;
@@ -168,7 +168,7 @@
 @media only screen and (min-width: 0rem) {
     :root {
       /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
-      --primary: #00A8E8;
+      --primary: #00B2FF;
       --primaryLight: #d8673d;
       --secondary: #FFBA43;
       --secondaryLight: #FFBA43;
@@ -248,7 +248,7 @@
       color: #000;
       min-width: 9.375rem;
       padding: 0 2rem;
-      background-color: #00A8E8;
+      background-color: #00B2FF;
       display: inline-block;
       position: relative;
       z-index: 1;
@@ -575,7 +575,7 @@
   font-weight: 700;
   text-align: center;
   margin: 0;
-  color: #00A8E8;
+  color: #00B2FF;
   min-width: 9.375rem;
   padding: 0 1.5rem;
   background-color: transparent;
@@ -583,7 +583,7 @@
   position: relative;
   z-index: 1;
   box-sizing: border-box;
-  border: 2px solid #00A8E8;
+  border: 2px solid #00B2FF;
 
 }
 
@@ -759,7 +759,7 @@
                                 
                                 
 #services-1176 span{
-  color: #00A8E8;
+  color: #00B2FF;
 }
 
 
@@ -996,10 +996,10 @@
 
 :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-    --primary: #00A8E8;
-    --primaryLight: #00A8E8;
-    --secondary: #00A8E8;
-    --secondaryLight: #00A8E8;
+    --primary: #00B2FF;
+    --primaryLight: #00B2FF;
+    --secondary: #00B2FF;
+    --secondaryLight: #00B2FF;
     --headerColor: white;
     --bodyTextColor: white;
     --bodyTextColorWhite: white;
