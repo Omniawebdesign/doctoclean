@@ -1465,3 +1465,21 @@ body {
         left: 0;
         z-index: 1;
     }
+
+
+
+
+
+
+#cta-1072 .cs-background:before {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: #00010A;
+        opacity: .7;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
