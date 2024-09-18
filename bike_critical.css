@@ -246,8 +246,6 @@
       background-attachment: fixed;
       /* remove img tag so we can make parallax work */
     }
-    #hero-997 .cs-background img {
-      display: none;
-    }
+   
   }
                                                 
